@@ -12,7 +12,7 @@ export default async function Navbar() {
 			<Container>
 				<div className="relative flex h-16 items-center px-4 sm:px-6 lg:px-8">
 					<Link href="/" className="flex  ml-4 lg:ml-0 gap-x-2">
-						<p className="font-bold text-xl">E-COMMERCE</p>
+						<p className="font-bold text-xl">ShopEase</p>
 					</Link>
 					<MainNav data={categories} />
 					<NavbarActions />
